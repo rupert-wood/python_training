@@ -1,0 +1,5 @@
+from google.cloud import storage
+storage_client = storage.Client()
+blobs = storage_client.list_blobs(bucket_name, prefix=prefix, delimiter=delimiter) # returns an iterator
+for blob in blobs:
+    print(blob.name)
