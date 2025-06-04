@@ -1,0 +1,11 @@
+Project number = 712495287584
+
+Database = equifax-credit-history
+
+Customer data:
+Bucket = anon_customer_credit
+table = credit_table
+
+Code descriptions data:
+bucket = customer_table_descriptions
+table = clean_headers
